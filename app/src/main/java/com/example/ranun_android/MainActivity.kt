@@ -10,11 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Log.v("Verbose", "testing v")
-        Log.d("Debug", "Debug testing") //개발자 많이 사용
-        Log.i("info", "info v")
-        Log.w("warn", "warn v")
-        Log.e("error", "error v")
 
     }
 }
